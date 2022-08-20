@@ -1,0 +1,32 @@
+.titled-menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.title a{
+    margin-top: 35px;
+    font-weight: 20px;
+    font-size: 45px;
+    transition: .5s;
+    color: #7400b8;
+}
+.title a:hover{
+    color: #161a1d;
+}
+.menu ul{
+    display: flex;
+}
+.menu li, a{
+    margin-top: 15px;
+    margin-left: 27px;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    display: flex;
+    flex: 1;
+    transition: .5s;
+}
+
+.menu a:hover{
+    color:#7400b8;
+}
