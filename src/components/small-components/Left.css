@@ -1,0 +1,26 @@
+.leftSide{
+    width: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.content input{
+    color: #7400b8;
+}
+.content .BTN{
+    background-color: #7400b8;
+    border: none;
+    border-radius: 2em;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+}
+.content .BTN button:hover{
+    opacity: 0.5;
+}
