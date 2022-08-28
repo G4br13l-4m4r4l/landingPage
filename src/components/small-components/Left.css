@@ -1,4 +1,5 @@
 .leftSide{
+    margin-left: 50px;
     width: 380px;
     display: flex;
     flex-wrap: wrap;
@@ -12,15 +13,25 @@
 }
 .content input{
     color: #7400b8;
+    text-decoration: none;
+    outline: none;
+    width: 25em;
+    height: 3rem;
+    border-radius: 1em;
+    font-size: large;
+    margin-bottom: 15px;
 }
 .content .BTN{
     background-color: #7400b8;
     border: none;
     border-radius: 2em;
-    width: 100px;
+    width: 450px;
     height: 50px;
     color: #fff;
+    font-size: large;
 }
-.content .BTN button:hover{
-    opacity: 0.5;
+.BTN:hover{
+    background-color: #7f02c7;
+    opacity: 1;
+    cursor: pointer;
 }
