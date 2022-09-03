@@ -2,4 +2,8 @@
     width: 800px;
     height: auto;
     border-radius: 2em;
+    transition: transform 450ms;
+}
+.Imagem:hover{
+    transform: scale(1.08);
 }
